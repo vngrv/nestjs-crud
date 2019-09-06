@@ -1,4 +1,4 @@
-import { IsNotEmpty } from 'class-validator'
+import { IsNotEmpty } from 'class-validator';
 
 export class CreateTaskDto {
   @IsNotEmpty()
@@ -7,5 +7,3 @@ export class CreateTaskDto {
   @IsNotEmpty()
   description: string;
 }
-
-
